@@ -106,6 +106,42 @@ header{
     font-size: 18px;
     font-weight: 400;
 }
+/* about me section style */
+.about-me .section-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.my-details{
+    display: flex;
+    padding: 0 100px 50px 50px;
+   gap: 50px;
+}
+.about-me-description{
+    color: #444343;
+    margin-top: 20px;
+  
+}
+.experience-title{
+    color: goldenrod;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my-experience{
+    height: 200px;
+    padding: 30px 15px 30px 15px;
+    box-shadow: 10px 10px 50px gray;
+}
+.hire-btn{
+    background: coral;
+    color: #F8F8F8;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
 /* footer style */
 footer{
     height: 400px;
@@ -116,8 +152,6 @@ footer{
     gap: 200px;
     padding: 130px 230px 130px 230px;
 }
-
-    
 
 .footer-title{
     color: #F8F8F8;
