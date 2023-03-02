@@ -3,16 +3,15 @@
     font-family: 'Cantora One', sans-serif;
 }
 section{
-    margin-bottom: 50px;
-
     
+    margin-bottom: 50px; 
 }
 /* header styles */
 
 header{
     background-image: url(../images/banner/banner3.png);
     height: 800px;
-    width: 100%;
+    
 }
 .banner{
     text-align: right;
@@ -26,7 +25,6 @@ header{
     color: #FFFFFF;
     font-size: 60px;
     font-weight: 700;
-    
     margin-bottom: 20px;
 }
 .banner-description{
@@ -47,15 +45,13 @@ header{
 /* previous year section */
 .previous-year{
     display: flex;
-    
     align-items: center;
     gap: 100px;
     padding: 100px 200px 150px 150px;
 }
 .previous-year img{
     width: 400px;
-  
-   
+
 }
 .section-title{
     font-size: 40px;
@@ -75,10 +71,9 @@ header{
     font-weight: 400;
     
 }
-.list-item p{
-    margin-bottom: 8px;
-}
+
 .list-item i{
+    margin-bottom: 8px;
     color: green;
 }
 /* my plan section */
@@ -113,7 +108,7 @@ header{
 }
 .my-details{
     display: flex;
-    padding: 0 100px 50px 50px;
+    padding: 0 150px 50px 150px;
    gap: 50px;
 }
 .about-me-description{
@@ -141,6 +136,20 @@ header{
     padding: 10px 25px;
     font-size: 18px;
     font-weight: 400;
+}
+/* adding linear gradient */
+.call-now{
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 150px;
+    margin: 100px 150px 100px 150px;
+    background-image: linear-gradient(to right,rgb(255, 115, 0),rgba(255,0,0,0)),url(/images/watch.png);
+}
+.call-now h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #F8F8F8;
+    
 }
 /* footer style */
 footer{
@@ -190,7 +199,7 @@ footer{
     border-radius: 5px;
 
 }
-.subscribe-btn{
+.btn-secondary{
     color: coral;
     background: #F8F8F8;
     border: 0;
